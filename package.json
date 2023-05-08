@@ -1,0 +1,29 @@
+{
+  "name": "@gonstoll/eslint-plugin-react-namespace",
+  "version": "0.1.1",
+  "description": "ESLint plugin to enforce namespace imports from the React package",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gonstoll/eslint-plugin-react-namespace.git"
+  },
+  "keywords": [
+    "eslint",
+    "react",
+    "import",
+    "namespace"
+  ],
+  "author": "Gonzalo Stoll",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gonstoll/eslint-plugin-react-namespace/issues"
+  },
+  "homepage": "https://github.com/gonstoll/eslint-plugin-react-namespace#readme",
+  "devDependencies": {
+    "eslint": "^8.40.0",
+    "jest": "^29.5.0"
+  }
+}
