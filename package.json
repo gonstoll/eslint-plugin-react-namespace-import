@@ -1,5 +1,5 @@
 {
-  "name": "@gonstoll/eslint-plugin-react-namespace-import",
+  "name": "eslint-plugin-react-namespace-import",
   "version": "0.1.1",
   "description": "ESLint plugin to enforce namespace imports from the React package",
   "main": "index.js",
@@ -25,5 +25,8 @@
   "devDependencies": {
     "eslint": "latest",
     "jest": "latest"
+  },
+  "peerDependencies": {
+    "eslint": ">=0.8.0"
   }
 }
