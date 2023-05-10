@@ -4,7 +4,8 @@
   "description": "ESLint plugin to enforce namespace imports from the React package",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "build": "rm -rf dist && mkdir dist && cp index.js dist/ && cp README.md dist/ && cp package.json dist/ && cp -R src dist/"
   },
   "repository": {
     "type": "git",
