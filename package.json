@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-react-namespace-import",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "ESLint plugin to enforce namespace imports from the React package",
   "main": "index.js",
   "scripts": {
