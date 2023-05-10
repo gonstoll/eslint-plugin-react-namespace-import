@@ -24,5 +24,10 @@ ruleTester.run('no-namespace-import', noNamespaceImport, {
       errors: [{messageId: 'noReactImport'}],
       output: "import * as React from 'react'",
     },
+    {
+      code: "import * as Foo from 'react'",
+      errors: [{messageId: 'namespaceValue'}],
+      output: "import * as React from 'react'",
+    },
   ],
 })

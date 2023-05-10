@@ -43,6 +43,7 @@ import React from 'react'
 import {Component} from 'react'
 import {Component as MyComponent} from 'react'
 import React, {useState} from 'react'
+import * as Foo from 'react'
 ```
 
 These will get flagged, and you will be asked to use the namespace import instead:
