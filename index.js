@@ -1,6 +1,6 @@
 module.exports = {
   rules: {
-    'no-namespace-import': require('./rules/no-namespace-import'),
+    'no-namespace-import': require('./src/rules/no-namespace-import'),
   },
   configs: {
     recommended: {
