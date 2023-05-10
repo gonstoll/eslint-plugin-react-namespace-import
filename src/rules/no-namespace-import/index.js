@@ -17,7 +17,7 @@ module.exports = {
       ImportDeclaration(node) {
         const isReactImport = node.source.value === 'react'
         const isNamespaceImport =
-          node.specifiers[0].type === 'ImportNamespaceSpecifier'
+          node.specifiers[0]?.type === 'ImportNamespaceSpecifier'
         const namespaceImport = isNamespaceImport
           ? node.specifiers[0].local.name
           : null
